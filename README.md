@@ -7,4 +7,28 @@ Anyone interested in improving existing solutions/contributing new solutions are
 
 This repository is currently being updated until all the solutions are completed.
 
+## Table of Contents
+
+### Chapter 1: Introduction
+
+#### Section 1.2: Ad-Hoc
+
+#### Section 1.3: Complete Search
+
+#### Section 1.4: Greedy Algorithm
+
+#### Section 1.5: More Search Techniques
+
+#### Section 1.6: Binary Numbers
+
+### Chapter 2: Bigger Challenges
+
+### Chapter 3: Techniques more subtle
+
+### Chapter 4: Advanced Algorithms and difficult drills
+
+### Chapter 5: Serious Challenges
+
+### Chapter 6: Contest Practice
+
 Enjoy!
