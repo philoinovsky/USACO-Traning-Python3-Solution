@@ -21,17 +21,11 @@ def all_pairs(lst):
     if len(lst) < 2:
         yield []
         return
-    if len(lst) % 2 == 1:
-        # Handle odd length list
-        for i in range(len(lst)):
-            for result in all_pairs(lst[:i] + lst[i+1:]):
-                yield result
-    else:
-        a = lst[0]
-        for i in range(1,len(lst)):
-            pair = [a,lst[i]]
-            for rest in all_pairs(lst[1:i]+lst[i+1:]):
-                yield [pair] + rest
+    a = lst[0]
+    for i in range(1,len(lst)):
+        pair = [a,lst[i]]
+        for rest in all_pairs(lst[1:i]+lst[i+1:]):
+            yield [pair] + rest
 def wormhole(start):
     idx = l.index(start)
     for i in pair:
@@ -40,25 +34,18 @@ def wormhole(start):
 def walk(start):
     [x, y] = start
     idx = d[y].index(x)
-    if idx == len(d[y])-1:
-        return None
-    else:
-        return [d[y][idx+1], y]
+    return None if idx == len(d[y])-1 else [d[y][idx+1], y]
 def isstuck(pair,start):
     visited = [start]
     while True:
         start = wormhole(start)
         start = walk(start)
-        if start in visited:
-            return True
-        elif start is not None:
+        if start is not None and start not in visited:
             visited.append(start)
         else:
-            return False
-lst = list(range(len(l)))
-pairs = all_pairs(lst)
+            return False if start is None else True
 cnt = 0
-for pair in pairs:
+for pair in all_pairs(list(range(m))):
     for start in l:
         if isstuck(pair,start):
             cnt += 1
