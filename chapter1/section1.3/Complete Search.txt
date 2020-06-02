@@ -1,3 +1,0 @@
-Complete Search:
-
-Reduce the cases to make brute force possible.
