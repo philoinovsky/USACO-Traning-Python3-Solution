@@ -24,7 +24,6 @@ while q:
             states.add(str(after))
             if after[0] == 0:
                 res.add(after[2])
-
 res = list(res)
 res.sort()
 string = ''
