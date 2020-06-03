@@ -9,7 +9,7 @@ This repository is currently being updated.
 
 ## Table of Contents
 
-### Chapter 1: Introduction
+### Chapter 1: Getting Start
 
 #### Section 1.2: Ad-Hoc
 
@@ -23,6 +23,14 @@ This repository is currently being updated.
 
 ### Chapter 2: Bigger Challenges
 
+#### Section 2.1: Graph Theory & Flood Fill Algorithms
+
+#### Section 2.2: Data Structures & Dynamic Programming
+
+#### Section 2.3: (All tasks)
+
+#### Section 2.4: Shortest Paths
+
 ### Chapter 3: Techniques more subtle
 
 ### Chapter 4: Advanced Algorithms and difficult drills
@@ -32,3 +40,6 @@ This repository is currently being updated.
 ### Chapter 6: Contest Practice
 
 Enjoy!
+
+Philoinovsky,
+31st May 2020
