@@ -33,6 +33,14 @@ This repository is currently being updated.
 
 ### Chapter 3: Techniques more subtle
 
+#### Section 3.1: Minimal Spanning Trees
+
+#### Section 3.2: Knapsack
+
+#### Section 3.3: Eulerian Tours
+
+#### Section 3.4: Computational Geometry
+
 ### Chapter 4: Advanced Algorithms and difficult drills
 
 ### Chapter 5: Serious Challenges
