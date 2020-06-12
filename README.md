@@ -43,6 +43,14 @@ This repository is currently being updated.
 
 ### Chapter 4: Advanced Algorithms and difficult drills
 
+#### Section 4.1: Optimization Techniques
+
+#### Section 4.2: Network Flow
+
+#### Section 4.3: Bignums
+
+#### Section 4.4: (All tasks)
+
 ### Chapter 5: Serious Challenges
 
 ### Chapter 6: Contest Practice
