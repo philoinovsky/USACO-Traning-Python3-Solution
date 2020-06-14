@@ -14,10 +14,10 @@ while len(L)<M0+M1:
     i += 1
 A = L[:M0]
 B = L[M0:]
-time1 = [0]*1001
-time2 = [0]*1001
-timea = [0]*31
-timeb = [0]*31
+time1 = [0]*N
+time2 = [0]*N
+timea = [0]*M0
+timeb = [0]*M1
 for i in range(N):
     MIN = float('inf')
     for j in range(M0):
