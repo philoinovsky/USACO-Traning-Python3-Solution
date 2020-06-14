@@ -43,7 +43,7 @@ This repository is currently being updated.
 
 ### Chapter 4: Advanced Algorithms and difficult drills
 
-#### Section 4.1: Optimization Techniques
+#### Section 4.1: Optimization
 
 #### Section 4.2: Network Flow
 
