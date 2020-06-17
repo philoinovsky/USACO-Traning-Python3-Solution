@@ -53,6 +53,16 @@ This repository is currently being updated.
 
 ### Chapter 5: Serious Challenges
 
+#### Section 5.1: Convex Hulls
+
+#### Section 5.2: (Just a task)
+
+#### Section 5.3: Heuristics
+
+#### Section 5.4: (All tasks)
+
+#### Section 5.5: (All tasks)
+
 ### Chapter 6: Contest Practice
 
 Enjoy!
